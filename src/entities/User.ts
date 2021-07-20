@@ -28,6 +28,9 @@ class User {
     @Column()
     admin: boolean;
 
+    @Column()
+    password: string;
+
     @CreateDateColumn()
     //in typescript declares timestamp as Date.
     created_at: Date;
